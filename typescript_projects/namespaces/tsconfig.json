@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "lib": ["es2019", "es2020.promise", "es2020.bigint", "es2020.string"],
+      "target": "es2019",
+      "module": "commonjs", /*Specify ECMAScript target version*/
+      "rootDir": "src",/*ts source directory*/
+      "outDir": "src" /*where to compile javascript files*/,
+      "removeComments": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "lib": ["es2015","DOM"],
+      "target": "es2015",
+      "module": "commonjs", /*Specify ECMAScript target version*/
+      "rootDir": "src",/*ts source directory*/
+      "outDir": "src" /*where to compile javascript files*/,
+      "removeComments": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}

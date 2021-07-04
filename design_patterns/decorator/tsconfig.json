@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "module": "commonjs", /*Specify ECMAScript target version*/
+      "rootDir": "src",/*ts source directory*/
+      "outDir": "dist/js" /*where to compile javascript files*/
+    },
+
+    "include": [
+        "./src/*.ts"
+    ]
+  }
